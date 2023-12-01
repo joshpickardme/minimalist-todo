@@ -1,0 +1,57 @@
+.background {
+    background-color: rgba(0, 0, 0, 0.837);
+    width: 100vw;
+    height: 100vh;
+    z-index: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: fixed;
+}
+
+.centred {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 400px;
+    width: 500px;
+    min-width: 280px;
+    padding: 2px;
+    background: rgba(81, 81, 81, 0);
+    color: white;
+    z-index: 10;
+  }
+
+.form {
+    min-width: 100%;
+}
+
+.input {
+    background-color: transparent;
+    border: 0px;
+    outline: 1px solid white;
+    padding: 12px;
+    min-width: 100%;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.prompt {
+    margin-top: 1rem;
+    color: rgb(58, 58, 58);
+    text-align: center;
+}
+
+@media only screen and (max-width: 500px) {
+    .form {
+      min-width: 90vw;
+    }
+  }

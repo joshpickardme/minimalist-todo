@@ -1,0 +1,33 @@
+.item {
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+}
+
+.text {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.hr {
+    width: 3px;
+    border-radius: 3px;
+    background-color: white;
+}
+
+.button {
+    width: 18px;
+    height: 18px;
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+}
